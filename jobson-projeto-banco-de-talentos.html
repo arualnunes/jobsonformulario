@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Básico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <header>
+            <h1>JOBSON</h1>
+            <nav>
+                <a href="jobson-projeto-pagina-inicial.html">Quem somos</a>
+                <a href="jobson-projeto-banco-de-talentos.html">Banco de talentos</a>
+            </nav>
+        </header>
+    </div>
+    <div class="estruturatexto">
+        <h2>Banco de oportunidades</h2>
+        <p>Preencha as informações a seguir e nos envie seu currículo:</p>
+        <form>
+            <div class="campo">
+                <label>Nome:</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div class="campo">
+                <label>Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+            <div class="campo">
+                <label>E-mail:</label>
+                <input type="email" name="e-mail" id="sobrenome">
+            </div>
+            <div class="campo">
+                <label>Selecione abaixo as tecnologias que você domina: </label>
+                <div>
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                    <label for="tecnologia1">HTML</label>
+
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                    <label for="tecnologia2">CSS</label>
+
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+                    <label for="tecnologia3">JavaScript</label>
+
+                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="Python">
+                    <label for="tecnologia4">Python</label>
+
+                    <input type="checkbox" id="tecnologia5" name="tecnologia5" value="Khotlin">
+                    <label for="tecnologia5">Khotlin</label>
+
+                    <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Swift">
+                    <label for="tecnologia6">Swift</label>
+                </div>
+            </div>
+            <div class="campo">
+                <label>Conte um pouco sobre você e suas experiencias com as tecnologias que você domina :)</label>
+                <textarea row="6" style="width: 26em" id="expericencia" name="experiencia"></textarea>
+            </div>
+            <div class="campo">
+                <label>Nos envie o seu curriculo por aqui:</label>
+                <input type="file" name="PDF" value="PDF">
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <br>
+    <footer>Desenvolvodo por: https://github.com/arualnunes </footer>
+</body>
+
+</html>
